@@ -10,7 +10,7 @@ This program requires:
 - ```requests``` library installed, if it is not installed, run on the terminal
 
     ```
-        pip install requests
+    pip install requests
     ```
 
 ## Credits
