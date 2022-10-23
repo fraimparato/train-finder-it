@@ -1,3 +1,7 @@
+import requests as req
+import station_finder as sf
+
+
 def help():
     print("""tfi: Train Finder Italy
 
@@ -11,8 +15,16 @@ in a solution
     """)
 
 
+def base_info_in():
+    dep = sf.find_d()
+    arr = sf.find_a()
+
+    return [dep, arr]
+
+
 def search_solution():
-    print("To be written")
+    params = base_info_in()
+    print(params)
 
 
 def is_present():
