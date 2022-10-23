@@ -1,2 +1,3 @@
 *.fnote
 __pycache__/
+*.json

@@ -22,7 +22,7 @@ locations/search?name={dep_st}&limit={MAX_R}"""
 
 
 def find_a():
-    dep_st = input("\nInsert the city (or station name) of departure: ")
+    dep_st = input("\nInsert the city (or station name) of arrive: ")
 
     STF_URL = f"""https://www.lefrecce.it/Channels.Website.BFF.WEB/website/\
 locations/search?name={dep_st}&limit={MAX_R}"""
